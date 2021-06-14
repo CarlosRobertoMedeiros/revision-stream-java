@@ -1,5 +1,5 @@
-![version][version-badge]: https://img.shields.io/badge/Java-8-success
-[![Documentation Status](https://img.shields.io/badge/Java-8-success)
+
+Version: [![Documentation Status](https://img.shields.io/badge/Java-8-success)
 ### Stream Java 8 / 11 - Revision 
 
 
