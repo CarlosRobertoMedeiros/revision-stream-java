@@ -2,6 +2,10 @@ package br.com.roberto.revisionstream;
 
 public class Java8LambdaRunnable {
 	
+	/**
+	 * Exemplo 2 => Utilizando o Padrão SAM
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		
 		/**
@@ -25,6 +29,3 @@ public class Java8LambdaRunnable {
 	
 	}
 }
-
-//Continuar a partir daqui
-//https://www.youtube.com/watch?v=lbCYLgoVpfQ&list=PLuYctAHjg89ZkhgOQo0zcTtmHY5nuRYud&index=1
