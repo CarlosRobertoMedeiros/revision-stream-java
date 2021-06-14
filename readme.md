@@ -1,5 +1,4 @@
-
-[![Build Status] (https://img.shields.io/badge/Java-8-success)
+![GitHub top language](https://img.shields.io/github/languages/top/CarlosRobertoMedeiros/revision-stream-java)
 ### Stream Java 8 / 11 - Revision 
 
 
