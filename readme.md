@@ -10,3 +10,16 @@
 	
 	#What´s SAM (Single Abstract Method)
 	
+		- Lambda
+		- Stream 
+			. Intermediate Transformation
+				- limit
+				- map
+				- skip
+				- distinct
+				- filter
+				
+				
+				
+			
+	
