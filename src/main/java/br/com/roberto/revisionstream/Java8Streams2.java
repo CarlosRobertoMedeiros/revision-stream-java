@@ -9,7 +9,7 @@ public class Java8Streams2 {
 	
 	
 	/**
-	 * Trabalhando com Transformações Intermediárias
+	 * Trabalhando com Operações Intermediárias
 	 * 
 	 * @param args
 	 */
