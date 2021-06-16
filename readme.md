@@ -10,7 +10,7 @@
 	
 	#What´s SAM (Single Abstract Method)
 	
-		- Reference Link (pt-br language) https://rinaldo.dev/java-8-streams-pare-de-usar-for-e-simplifique-seu-codigo/
+		- Reference Link for Lambda (pt-br language) https://rinaldo.dev/java-8-streams-pare-de-usar-for-e-simplifique-seu-codigo/
 		
 		- Lambda
 		- Stream 
@@ -30,6 +30,17 @@
 				- Others ways to create Streams
 				
 				
-		- Optional 
+		- Optional (Obs.::: In Java 8 don't use Optional like function parameter only with function return )
+			- isPresent   -- verify if exists value inside the Optional
+			- get  		  -- return the value of Optional, but it's doesn´t work with exceptions
 			
-	
+			- ifPresent   -- return an expression Lambda
+			- orElse
+			- orElseGet
+			- orElseThrow
+			
+			- Primitive Types
+				- OptionalInt -- using the OptionalInt class with the commom parse method for cast
+				- OptionalDouble
+				- OptionalLong
+
