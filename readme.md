@@ -44,3 +44,15 @@
 				- OptionalDouble
 				- OptionalLong
 
+		- Stream
+			- Reduce
+				- Associative Function **(ordered with or without parentesis) (1+1) + (1+2) + (1+3) the same that (1+1+1+2+1+3)
+					Sum 		
+					Multiply   
+					Concat
+				- Unassociative Function **Cannot Use
+					Subtraction **(the result is diferent with or without parentesis) (1-1) - (1-2) - (1-3) the same that (1-1-1-2-1-3). use Stream.parallel().reduce
+				
+						
+					
+				

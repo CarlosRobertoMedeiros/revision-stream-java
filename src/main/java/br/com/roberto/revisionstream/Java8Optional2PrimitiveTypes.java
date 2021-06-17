@@ -24,6 +24,3 @@ public class Java8Optional2PrimitiveTypes {
 	}
 
 }
-
-// Continuar daqui
-// Link https://www.youtube.com/watch?v=2aHElyENpuM&list=PLuYctAHjg89ZkhgOQo0zcTtmHY5nuRYud&index=5
