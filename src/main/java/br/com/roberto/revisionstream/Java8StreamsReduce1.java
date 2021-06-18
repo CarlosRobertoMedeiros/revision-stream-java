@@ -4,11 +4,12 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
 
-public class Java8Streams3 {
+public class Java8StreamsReduce1 {
 
 	private static List<Integer> lista = Arrays.asList(1, 2, 3, 4, 5, 6);
 
 	/**
+	 * O Reduce trabalha com dados imutáveis
 	 * Trabalhando com Streams_Reduce usando apenas o acumulador
 	 * 
 	 * reduce => Pega todos os elementos de um Stream, juntar eles; em seguida

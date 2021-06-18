@@ -45,6 +45,7 @@
 				- OptionalLong
 
 		- Stream
+
 			- Reduce
 				- Associative Function **(ordered with or without parentesis) (1+1) + (1+2) + (1+3) the same that (1+1+1+2+1+3)
 					Sum 		
@@ -52,6 +53,24 @@
 					Concat
 				- Unassociative Function **Cannot Use
 					Subtraction **(the result is diferent with or without parentesis) (1-1) - (1-2) - (1-3) the same that (1-1-1-2-1-3). use Stream.parallel().reduce
+				
+				- Identity Value
+					Sum
+					Multiply   
+					Concat
+					Math.min
+				
+				- Combiner Functions
+					Sum
+					Map
+					
+				- Reduce vs Collect	
+					- Reduce is used for imutable objects
+					- Collect is used for mutable objects
+					
+			- Collect
+				- toList
+					 
 				
 						
 					

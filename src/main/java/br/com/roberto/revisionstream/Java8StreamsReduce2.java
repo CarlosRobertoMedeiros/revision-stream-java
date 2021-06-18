@@ -3,8 +3,10 @@ package br.com.roberto.revisionstream;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
+import java.util.OptionalDouble;
+import java.util.stream.DoubleStream;
 
-public class Java8Streams4 {
+public class Java8StreamsReduce2 {
 
 	private static List<Integer> lista = Arrays.asList(1, 2, 3, 4, 5, 6);
 
@@ -26,7 +28,37 @@ public class Java8Streams4 {
 		impressaoReduceMultiplicacao();
 		impressaoReduceConcatenacaoStrings();
 		/*impressaoReduceSubtracao();*/
+		impressaoReduceComMenorValor();
+		impressaoReduceSomaComCombinacao();
+		impressaoReduceMapComCombinacao();
 
+	}
+
+	/**
+	 * A Combinação é a função que o reduce chama ao dividir em partes
+	 * a execução do stream
+	 */
+	private static void impressaoReduceSomaComCombinacao() {
+		Integer somaComCombinacao = lista.stream()
+				.reduce(0, (n1,n2) -> n1+n2, (n1,n2) -> n1 + n2);
+		System.out.println(somaComCombinacao);	
+		
+	}
+
+	private static void impressaoReduceComMenorValor() {
+		
+		/* Jeito 1
+		OptionalDouble menorValor = DoubleStream.of(1.5,2.9,6.7)
+			.reduce((d1,d2) -> Math.min(d1, d2));
+		System.out.println(menorValor);
+		*/
+		
+		//Uma alternativa nos casos onde o valor de identidade não é tão óbvio
+		double menorValor = DoubleStream.of(1.5,2.9,6.7)
+			.reduce(Double.POSITIVE_INFINITY,(d1,d2) -> Math.min(d1, d2));
+		System.out.println(menorValor);
+		
+		
 	}
 
 	private static void impressaoSimplesDaLista() {
@@ -74,10 +106,23 @@ public class Java8Streams4 {
 		System.out.println(subtracao.get());
 	}*/
 	
+	private static void impressaoReduceMapComCombinacao() {
+		
+		/*Alternativa 1
+		Optional<String> reduce = lista.stream()
+			.map(n1 -> n1.toString())
+			.reduce((n1, n2) -> n1.concat(n2));
+		System.out.println(reduce);
+		*/
+		// Detalhe só é usado em paralelo 
+		String reduce = lista.stream()
+			.reduce("",
+					(n1, n2) -> n1.toString().concat(n2.toString()),
+					(n1, n2) -> n1.concat(n2) 
+			);
+		System.out.println(reduce);
+	}
+	
 	
 
 }
-
-// Resumo Simples: https://rinaldo.dev/java-8-streams-pare-de-usar-for-e-simplifique-seu-codigo/
-// Continuar daqui: https://www.youtube.com/watch?v=2aHElyENpuM&list=PLuYctAHjg89ZkhgOQo0zcTtmHY5nuRYud&index=5
-// A partir de 19:20
