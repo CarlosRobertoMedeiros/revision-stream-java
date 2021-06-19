@@ -70,6 +70,21 @@
 					
 			- Collect
 				- toList
+				- toSet
+				- toCollection
+				- joining (for Strings)
+			
+				- Collectors.averaging int - double - long
+				- Collectors.summing int - double - long
+				- Collectors.summarizing int - double - long (It´s cool for primitive times)
+				- Collectors.counting()
+				- Collectors.maxBy()
+				- Collectors.minBy()
+				
+				- Collectors.groupingBy
+				- Collectors.partitioningBy
+				- Collectors.toMap
+				
 					 
 				
 						
