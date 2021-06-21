@@ -69,6 +69,7 @@
 					- Collect is used for mutable objects
 					
 			- Collect
+			
 				- toList
 				- toSet
 				- toCollection
@@ -85,7 +86,12 @@
 				- Collectors.partitioningBy
 				- Collectors.toMap
 				
-					 
+			- Method Reference
+			
+				- Static Method = Class Java8MethodReference::
+				- Constructor
+				- Several Instances
+				- Unique Instance
 				
 						
 					
