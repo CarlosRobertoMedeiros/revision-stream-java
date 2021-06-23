@@ -93,6 +93,10 @@
 				- Several Instances
 				- Unique Instance
 				
-						
+			- Stream Debugger
+			
+				- Debug with block
+				- Debug with Method
+				- Debug with peek;
 					
 				

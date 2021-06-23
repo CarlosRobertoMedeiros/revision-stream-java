@@ -20,9 +20,59 @@ public class Java8StreamDebug {
 
 	public static void main(String[] args) {
 		
+		debugandoNormalmenteaStream();
+		debugandoEmBlocoaStream();
+		debugandoEmMetodo();
+		debugandoUsandoPeek();
+		
+		
+		
+	}
+	
+	private static void debugandoNormalmenteaStream() {
 		LISTA.stream()
-			.map((n) -> new StringBuilder().append(n).append("s").append("a"))
+		.map((n) -> new StringBuilder().append(n).append("s").append("a"))
+		.forEach(System.out::println);
+	}
+	
+	private static void debugandoEmBlocoaStream() {
+		LISTA.stream().
+			map((n) -> {
+					StringBuilder builder = new StringBuilder();
+					builder.append(n);
+					builder.append("s");
+					builder.append("a") ;
+					return builder;
+				})
+			.forEach(System.out::println);
+	}
+
+	private static void debugandoEmMetodo() {
+		LISTA.stream()
+			.map(n -> converteParaStringBuilder(n))
+			.forEach(System.out::println);
+	
+	}
+	
+	private static StringBuilder converteParaStringBuilder(Integer n) {
+		StringBuilder builder = new StringBuilder();
+		builder.append(n);
+		builder.append("s");
+		builder.append("a") ;
+		return builder;
+	}
+	
+	private static void debugandoUsandoPeek() {
+		//O peek serve como log para ser mostrado o que está ocorrendo.
+		LISTA.stream()
+			.peek(n -> System.out.println(n + "antes do map"))
+			.map(n -> converteParaStringBuilder(n))
+			.peek(n -> System.out.println(n + "depois do converte para String"))
 			.forEach(System.out::println);
 		
 	}
+
+
+	
+	
 }
