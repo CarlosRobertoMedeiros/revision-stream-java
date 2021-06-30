@@ -99,4 +99,9 @@
 				- Debug with Method
 				- Debug with peek;
 					
+			- Functional Interfaces
+				
+				- Supplier
+				- Consumer and BiConsumer
+				- Predicate and BiPredicate
 				
