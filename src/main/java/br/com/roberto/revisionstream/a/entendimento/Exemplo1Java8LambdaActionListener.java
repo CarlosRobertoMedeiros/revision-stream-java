@@ -1,11 +1,11 @@
-package br.com.roberto.revisionstream;
+package br.com.roberto.revisionstream.a.entendimento;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 import javax.swing.JButton;
 
-public class Java8LambdaActionListener {
+public class Exemplo1Java8LambdaActionListener {
 
 
 	/**

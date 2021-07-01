@@ -1,4 +1,4 @@
-package br.com.roberto.revisionstream;
+package br.com.roberto.revisionstream.b.exemplosstream;
 
 import java.util.Arrays;
 import java.util.Comparator;
@@ -17,7 +17,7 @@ import java.util.stream.Collectors;
  * 
  * Para trabalhar com thread através de Stream utilize a classe parallelStream() só prestar a atenção 
  */
-public class Java8LambdaStream3 {
+public class ExemploStreamParte2 {
 	
 	private static List<Integer> lista = Arrays.asList(1,5,8,9,1,4,7,6,6,9,9);
 	

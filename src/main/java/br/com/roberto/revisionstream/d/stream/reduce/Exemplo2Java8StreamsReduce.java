@@ -1,4 +1,4 @@
-package br.com.roberto.revisionstream;
+package br.com.roberto.revisionstream.d.stream.reduce;
 
 import java.util.Arrays;
 import java.util.List;
@@ -6,7 +6,7 @@ import java.util.Optional;
 import java.util.OptionalDouble;
 import java.util.stream.DoubleStream;
 
-public class Java8StreamsReduce2 {
+public class Exemplo2Java8StreamsReduce {
 
 	private static List<Integer> lista = Arrays.asList(1, 2, 3, 4, 5, 6);
 

@@ -1,4 +1,4 @@
-package br.com.roberto.revisionstream;
+package br.com.roberto.revisionstream.f.stream.degubber;
 
 import java.util.Arrays;
 import java.util.List;

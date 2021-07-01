@@ -1,11 +1,11 @@
-package br.com.roberto.revisionstream;
+package br.com.roberto.revisionstream.d.stream.collect;
 
 import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-public class Java8StreamsCollect3Maps {
+public class Exemplo3Java8StreamsCollect {
 
 	private static List<Integer> lista = Arrays.asList(1, 2, 3, 4, 5, 6);
 

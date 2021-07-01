@@ -1,9 +1,9 @@
-package br.com.roberto.revisionstream;
+package br.com.roberto.revisionstream.c.optional;
 
 import java.util.Optional;
 import java.util.stream.Stream;
 
-public class Java8Optional2findFirst {
+public class Exemplo2Java8Optional2FindFirst {
 
 	public static void main(String[] args) {
 	

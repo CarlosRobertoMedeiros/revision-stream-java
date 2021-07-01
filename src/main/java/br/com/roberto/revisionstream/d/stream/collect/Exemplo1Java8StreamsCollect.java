@@ -1,4 +1,4 @@
-package br.com.roberto.revisionstream;
+package br.com.roberto.revisionstream.d.stream.collect;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Optional;
 import java.util.Set;
 
-public class Java8StreamsCollect1 {
+public class Exemplo1Java8StreamsCollect {
 
 	private static List<Integer> lista = Arrays.asList(1, 2, 3, 4, 5, 6);
 

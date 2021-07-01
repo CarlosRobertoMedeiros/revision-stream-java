@@ -1,4 +1,4 @@
-package br.com.roberto.revisionstream;
+package br.com.roberto.revisionstream.e.methodreference;
 
 import java.math.BigDecimal;
 import java.util.Arrays;

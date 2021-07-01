@@ -1,9 +1,9 @@
-package br.com.roberto.revisionstream;
+package br.com.roberto.revisionstream.b.exemplosstream;
 
 import java.util.Arrays;
 import java.util.List;
 
-public class Java8Streams2 {
+public class ExemploStreamParte1 {
 
 	private static List<Integer> lista = Arrays.asList(1,5,8,9,1,4,7,6,6,9,9);
 	

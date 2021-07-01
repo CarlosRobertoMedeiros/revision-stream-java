@@ -1,6 +1,6 @@
-package br.com.roberto.revisionstream;
+package br.com.roberto.revisionstream.a.entendimento;
 
-public class Java8LambdaRunnable {
+public class Exemplo2Java8LambdaRunnable {
 	
 	/**
 	 * Exemplo 2 => Utilizando o Padrão SAM

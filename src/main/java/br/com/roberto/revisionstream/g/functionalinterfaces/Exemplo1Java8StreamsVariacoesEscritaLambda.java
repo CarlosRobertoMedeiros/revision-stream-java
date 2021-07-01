@@ -1,8 +1,8 @@
-package br.com.roberto.revisionstream;
+package br.com.roberto.revisionstream.g.functionalinterfaces;
 
 import java.util.stream.IntStream;
 
-public class Java8StreamsVariacoesEscritaLambda {
+public class Exemplo1Java8StreamsVariacoesEscritaLambda {
 	
 	
 	public static void main(String[] args) {

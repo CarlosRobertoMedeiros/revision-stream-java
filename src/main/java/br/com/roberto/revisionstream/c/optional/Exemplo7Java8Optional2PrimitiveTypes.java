@@ -1,8 +1,8 @@
-package br.com.roberto.revisionstream;
+package br.com.roberto.revisionstream.c.optional;
 
 import java.util.OptionalInt;
 
-public class Java8Optional2PrimitiveTypes {
+public class Exemplo7Java8Optional2PrimitiveTypes {
 
 	public static void main(String[] args) {
 		String s ="1";

@@ -1,5 +1,5 @@
 ![GitHub top language](https://img.shields.io/github/languages/top/CarlosRobertoMedeiros/revision-stream-java)
-### Java 8 / 11 - Revision (Stream - Optional)
+### Java 8 / 11 - Revision (Functional Programming)
 
 
 ## Owner
@@ -104,4 +104,9 @@
 				- Supplier
 				- Consumer and BiConsumer
 				- Predicate and BiPredicate
+				- Functional and BiFunctional
+				- UnaryOperator and BinaryOperator
 				
+			- Stream Creation
+				
+				- 

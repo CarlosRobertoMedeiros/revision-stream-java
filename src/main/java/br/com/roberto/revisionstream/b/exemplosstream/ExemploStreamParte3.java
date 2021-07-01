@@ -1,4 +1,4 @@
-package br.com.roberto.revisionstream;
+package br.com.roberto.revisionstream.b.exemplosstream;
 
 import java.util.Arrays;
 import java.util.Iterator;
@@ -9,7 +9,7 @@ import java.util.List;
  * @author carlos
  *
  */
-public class Java8Streams {
+public class ExemploStreamParte3 {
 	
 	public static void main(String[] args) {
 		

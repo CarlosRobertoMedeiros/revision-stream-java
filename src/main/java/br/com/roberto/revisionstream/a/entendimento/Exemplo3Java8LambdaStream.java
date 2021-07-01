@@ -1,10 +1,10 @@
-package br.com.roberto.revisionstream;
+package br.com.roberto.revisionstream.a.entendimento;
 
 import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
 
-public class Java8LambdaStream {
+public class Exemplo3Java8LambdaStream {
 	
 	/**
 	 * Exemplo 3

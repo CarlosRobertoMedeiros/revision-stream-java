@@ -1,8 +1,8 @@
-package br.com.roberto.revisionstream;
+package br.com.roberto.revisionstream.c.optional;
 
 import java.util.Optional;
 
-public class Java8Optional2ifPresent {
+public class Exemplo3Java8Optional2ifPresent {
 
 	public static void main(String[] args) {
 		//String s ="1";

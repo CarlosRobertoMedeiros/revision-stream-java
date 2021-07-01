@@ -1,8 +1,8 @@
-package br.com.roberto.revisionstream;
+package br.com.roberto.revisionstream.c.optional;
 
 import java.util.Optional;
 
-public class Java8Optional2orElseThrow {
+public class Exemplo5Java8Optional2orElseGet {
 
 	public static void main(String[] args) {
 		String s ="1";
@@ -12,8 +12,8 @@ public class Java8Optional2orElseThrow {
 		//Caso consiga converter (String s ="1") ele imprime o valor
 		//Caso não consiga ele imprime (String s ="teste de mensagem") 2
 		//Interessante em casos onde o método pode te tornar um valor null
-		//Porém aqui ao usar o orElseThrow ele lança uma exceção caso o Optional esteja vazio
-		Integer numero = converteEmNumero(s).orElseThrow(() -> new NullPointerException("Valor Vazio"));
+		//Porém aqui ao usar o orElseGet eu informo uma função Lambda
+		Integer numero = converteEmNumero(s).orElseGet(() -> 5/*{return operacaoPesada();}*/);
 		System.out.println(numero);
 
 	}
