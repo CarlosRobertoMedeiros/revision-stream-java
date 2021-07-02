@@ -134,6 +134,23 @@
 			
 			- Parallel Streams
 			
-				- parellel vs parallel stream
+				- Parellel vs Parallel Stream
+				- forEach vs forEachOrdered
+				- findAny
+				- unordered: skip, limit, distinct
+				- reduce: acumulator, associatives
+				- Collect: toMap and groupingBy
+		
+		
+		- Date and Time new API(LocalDate)
+			
+			- LocalDate
+			- LocalTime
+			- LocalDateTime
+			- Instant
+			- ZonedDateTime
+
+			- Method of..   --Create a day
+			- Method plus.. -- add a day
 			
 			
