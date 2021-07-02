@@ -109,4 +109,31 @@
 				
 			- Stream Creation
 				
-				- 
+				- Collection
+				- Arrays
+				- Stream.of
+				- IntStream.range
+				- Stream.iterate
+				- BufferedReader
+				- Files
+				- Random
+				- Pattern
+				
+			- New Methods in Collection
+
+				Using with List
+					- forEach
+					- removeIf
+					- replaceAll
+				
+				Using with Maps
+					- forEach
+					- compute
+					- merge
+					- replaceAll
+			
+			- Parallel Streams
+			
+				- parellel vs parallel stream
+			
+			
