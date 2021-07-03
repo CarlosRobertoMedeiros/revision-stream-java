@@ -153,4 +153,9 @@
 			- Method of..   --Create a day
 			- Method plus.. -- add a day
 			
+			- Period
+			- Duration
+			
+			
+			
 			
