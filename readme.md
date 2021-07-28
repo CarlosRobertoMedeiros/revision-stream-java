@@ -156,9 +156,6 @@
 			- Period
 			- Duration
 			
-			- Date and DateTimeFormatter
-			
-		- Working with Threads
-		
+			- Date and DateTimeFormatter		
 
 			
